@@ -1,0 +1,4 @@
+timestamp,duration,protocol,source_ip,source_port,direction,destination_ip,destination_port,state,source_type_of_service,destination_type_of_service,total_packets,bytes_transferred_total,bytes_transferred_source_to_dest,streamID,lof
+2024-01-01 02:58:00,125.37908473401762,UDP,55.152.238.8,11138,inbound,1.38.26.35,60922,FIN,0,4,794,46909,46454,179,1
+2024-01-01 03:16:00,140.55045977982968,ICMP,191.193.207.231,51681,inbound,192.99.68.142,6375,ACK,2,1,298,31918,50605,197,1
+2024-01-01 04:51:00,90.25951538164448,UDP,64.94.1.172,39737,inbound,150.233.152.80,23226,FIN,1,0,18,90474,27994,292,1
