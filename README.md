@@ -71,22 +71,6 @@ The datasets used in this project consist of NetFlow data, a standard format for
 
 The dataset contains both normal traffic and botnet (malicious) traffic, providing a realistic foundation for anomaly detection.
 
-## Results
-
-### Local Outlier Factor (LOF) Results
-LOF successfully detected localized anomalies based on density differences. For instance:
-- Precision: **X%**
-- Recall: **Y%**
-
-These results demonstrate LOF’s ability to identify specific regions of low-density points as anomalies, indicating suspicious traffic.
-
-### Isolation Forest (iForest) Results
-Isolation Forest detected global anomalies with the following performance:
-- Precision: **A%**
-- Recall: **B%**
-
-The iForest model proved effective in detecting outliers across the entire dataset, especially in identifying abnormal connections and large deviations in packet volume or session duration.
-
 ## Conclusion
 
 This project demonstrates the effectiveness of combining feature engineering with LOF and Isolation Forest for robust anomaly detection in network traffic data. While LOF specializes in finding anomalies based on local density variations, Isolation Forest efficiently isolates global anomalies. Together, these methods provide a well-rounded approach to detecting a variety of anomalies in network traffic, enhancing the ability to identify potential security threats.
